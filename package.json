@@ -1,0 +1,24 @@
+{
+  "name": "noman-hello-photo",
+  "version": "1.0.0",
+  "description": "React portfolio with isolated motion, media and WebGL effects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "esbuild": "^0.28.2",
+    "framer-motion": "^14.2.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "three": "^0.186.1",
+    "three-vanta": "npm:three@^0.134.0",
+    "vanta": "^0.5.24"
+  }
+}
